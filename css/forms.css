@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+#form {
+    border-radius: 5px;
+    background-color: rgb(221, 203, 179);
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.alert {
+    color: red;
+    padding: 20px;
+    background-color: rgb(218, 195, 195);
+    text-align: center;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: #333;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    text-align: center;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+input[type=submit]:hover {
+    background-color: #8b74ad;
+    opacity: 1;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("https://shelbycountyartscouncil.com/wp-content/uploads/2017/09/pexels-photo-226243.jpeg");
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-text {
+    background-color: rgb(255, 235, 209);
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    text-align: center;
+}
+
+.logo {
+    line-height: 0.1cm;
+    font-family: fantasy;
+    font-size: 2vw;
+    color: white;
+}
+
+.success {
+    color: royalblue;
+    background-color: rgb(167, 215, 241)
+}
