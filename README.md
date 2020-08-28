@@ -49,5 +49,11 @@ http://localhost/Camagru
 
 ### Changing Camagru Variables
 
-In [Insert path to your MAP/WAMP/LAMP directory]/apache2/htdocs/Camagru/config
+In [Insert path to your MAP/WAMP/LAMP directory]/apache2/htdocs/Camagru/config/database.php
 
+Change the password of `$db_pass`, to the password you set during bitnami installation/setup.
+
+![Database_Configuration](./uploads/db_pass.png)
+
+# Samples | Screenshots
+## Landing | Home page
