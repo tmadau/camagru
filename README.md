@@ -83,12 +83,12 @@ http://localhost/Camagru/config/setup.php
 ## Project Markingsheet
 - [Camagru Project Marking sheet](./uploads/camagru.markingsheet.pdf)
 ## Project stack / Technologies
-Front-end
+### Front-end
 - HTML
 - CSS
 - JavaScript
-Back-end
-- PHP
-Database
-- MySQL
-- PHPMYADMIN
+### Back-end
+- [PHP](https://www.php.net/)
+### Database
+- [MySQL](https://www.mysql.com/)
+- [PHPMYADMIN](https://www.phpmyadmin.net/)
