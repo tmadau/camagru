@@ -55,5 +55,30 @@ Change the password of `$db_pass`, to the password you set during bitnami instal
 
 ![Database_Configuration](./uploads/db_pass.png)
 
+### Creating Database and Table
+
+To create database and tables:
+
+In the browser, navigate to
+http://localhost/Camagru/config/setup.php
+
+![Database_Configuration](./uploads/setup.png)
+
 # Samples | Screenshots
 ## Landing | Home page
+![Screenshot_Landingpage](./uploads/homeScreen.png)
+
+## Photobooth
+![Screenshot_Landingpage](./uploads/homeScreen.png)
+
+### Uploading an image
+![Screenshot_Landingpage](./uploads/homeScreen.png)
+
+### Taking a photo with the webcam
+![Screenshot_Landingpage](./uploads/homeScreen.png)
+
+# Project Insight
+## Project Brief
+- [Camagru Project Brief](./uploads/camagru.en.pdf)
+## Project Markingsheet
+- [Camagru Project Marking sheet](./uploads/camagru.markingsheet.pdf)
