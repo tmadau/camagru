@@ -60,7 +60,7 @@
                 header( 'Location: ../notifs/sent.php' );
             }
             else {
-                $error = "User alread exists";
+                $error = 'User possibly already exists';
             }
         }
     }

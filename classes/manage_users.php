@@ -22,8 +22,8 @@
                 $query = $this->link->prepare(" INSERT INTO users(username, email, password, ver_code) VALUES (?, ?, ?, ?) ");
                 $values = array($username, $email, $password, $ver_code);
                 $query->execute($values);
-                $counts = $query->rowCount();
-                return $counts;
+                return $query->rowCount();
+                // return $counts;
             }
             catch (PDOException $e) {
                 return $e->getMessage();

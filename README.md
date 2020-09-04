@@ -66,16 +66,13 @@ http://localhost/Camagru/config/setup.php
 
 # Samples | Screenshots
 ## Landing | Home page
-![Screenshot_Landingpage](./uploads/homeScreen.png)
+![Screenshot_Landingpage](./uploads/landing.png)
 
-## Photobooth
-![Screenshot_Landingpage](./uploads/homeScreen.png)
+## Webcam
+![Screenshot_Landingpage](./uploads/webcam.png)
 
 ### Uploading an image
-![Screenshot_Landingpage](./uploads/homeScreen.png)
-
-### Taking a photo with the webcam
-![Screenshot_Landingpage](./uploads/homeScreen.png)
+![Screenshot_Landingpage](./uploads/imageupload.png)
 
 # Project Insight
 ## Project Brief

@@ -26,8 +26,7 @@
             `password` varchar(255) NOT NULL,
             `ver_code` varchar(45) NOT NULL,
             `verified` tinyint(1) NOT NULL DEFAULT '0',
-            `notifs` varchar(6) NOT NULL DEFAULT 'YES',
-            `reg_date` timestamp(6) NOT NULL
+            `notifs` varchar(6) NOT NULL DEFAULT 'YES'
         ) ENGINE=InnoDB DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_bin";
         $dbh->exec($query);
         echo "Users Table Created Successfully <br />";

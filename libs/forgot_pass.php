@@ -16,10 +16,10 @@
         if (empty($email)) {
             $error = 'Please fill in your email address';
         }
-        else if (!filter_var($email,FILTER_VALIDATE_EMAIL)) {
+        elseif (!filter_var($email,FILTER_VALIDATE_EMAIL)) {
             $error = 'Email you entered is not valid';
         }
-        else if ($row['email'] != $email) {
+        elseif ($row['email'] != $email) {
             $error = 'The email you entered is not registered to this site, pleas fill in the correct email';
         }
         else {
@@ -45,10 +45,10 @@
         if (empty($password) || empty($repass)) {
             $error = 'All fields are required';
         }
-        else if ($password != $repass) {
+        elseif ($password != $repass) {
             $error = 'Your passwords do not match, please try again';
         }
-        else if (!preg_match("/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/", $_POST['password'])) {
+        elseif (!preg_match("/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/", $_POST['password'])) {
             $error = 'Password must be at least 8 characters long, contain at least one uppercase, <br />
             one lowercase letter and contain a number and can contain specail characters if you feel the need to put them in...';
         }

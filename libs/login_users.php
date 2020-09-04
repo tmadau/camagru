@@ -21,7 +21,6 @@
                 $row = $login->get_data($username);
                 $verified = $row['verified'];
                 $email = $row['email'];
-                $date = $row['reg_date'];
                 $date = strtotime($date);
                 $date = date('M d Y', $date);
 

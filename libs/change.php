@@ -19,13 +19,13 @@
         if ($password != $row['password']) {
             $error = 'Please fill in your password, not a different one';
         }
-        else if ($newpass == $password) {
+        elseif ($newpass == $password) {
             $error = 'Why you putting in the same password, you might as well not change';
         }
-        else if ($newpass != $repass) {
+        elseif ($newpass != $repass) {
             $error = 'Passwords do not match, please try again';
         }
-        else if (!preg_match("/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/", $_POST['newpass'])) {
+        elseif (!preg_match("/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/", $_POST['newpass'])) {
             $error = 'Password must be at least 8 characters long, contain at least one uppercase, <br />
             one lowercase letter and contain a number and can contain specail characters if you feel the need to put them in...';
         }
@@ -36,7 +36,7 @@
     }
 
     //change username on profile page
-    else if (isset($_POST['newusername'])) {
+    elseif (isset($_POST['newusername'])) {
 
         $info = new control();
 
@@ -49,13 +49,13 @@
         if ($pass != $row['password']) {
             $error1 = 'Please fill in your password, not a different one';
         }
-        else if (!preg_match("/^[a-zA-Z_0-9]*$/", $newusername)) {
+        elseif (!preg_match("/^[a-zA-Z_0-9]*$/", $newusername)) {
             $error1 = 'Usersnames characters are a-z A-Z 0-9 and underscore _.';
         }
-        else if ($newusername == 'Admin' || $newusername == 'admin') {
+        elseif ($newusername == 'Admin' || $newusername == 'admin') {
             $error1 = 'Username cannot be Admin or admin';
         }
-        else if ($newusername == $username) {
+        elseif ($newusername == $username) {
             $error1 = 'Username already exists, please try a different one';
         }
         else {
@@ -74,7 +74,7 @@
     }
 
     //change email on profile page
-    else if (isset($_POST['submit'])) {
+    elseif (isset($_POST['submit'])) {
 
         $info = new control();
 
@@ -87,11 +87,11 @@
         if ($password != $row['password']) {
             $error2 = 'Please fill in your password, not a different one';
         }
-        else if (!preg_match("/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/", $_POST['password'])) {
+        elseif (!preg_match("/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/", $_POST['password'])) {
             $error2 = 'Password must be at least 8 characters long, contain at least one uppercase, <br />
             one lowercase letter and contain a number and can contain specail characters if you feel the need to put them in...';
         }
-        else if (!filter_var($newemail, FILTER_VALIDATE_EMAIL)) {
+        elseif (!filter_var($newemail, FILTER_VALIDATE_EMAIL)) {
             $error2 = 'Email you entered is not valid';
         }
         else {
@@ -106,7 +106,7 @@
         }
     }
 
-    else if (isset($_POST['update'])) {
+    elseif (isset($_POST['update'])) {
         $info = new control();
         $username = $_SESSION['username'];
         $mode = $_POST['notifs'];

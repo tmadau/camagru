@@ -20,7 +20,7 @@
             $import_file_ext = end($explodedname);
             $file_ext = array('png', 'jpeg', 'jpg');
         }
-        else if ($_POST['webcampic'] != 'empty') {
+        elseif ($_POST['webcampic'] != 'empty') {
             $webcamimage = 1;
             $data = base64_decode(preg_replace('#^data:image/\w+;base64,#i', '', $_POST['webcampic']));
             $import_file_ext = 'png';

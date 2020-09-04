@@ -57,7 +57,7 @@
                 <table class=table>
                     <?php
                         if (isset($error)) { echo ' <div class="alert"><span class="closebtn" onclick=this.parentElement.style.display="none";>&times;</span><strong>'.$error.'</strong></div> '; }
-                        else if (isset($passed)) { echo ' <div class="success"><span class="closebtn" onclick=this.parentElement.style.display="none";>&times;</span><strong>'.$passed.'</strong></div> '; }
+                        elseif (isset($passed)) { echo ' <div class="success"><span class="closebtn" onclick=this.parentElement.style.display="none";>&times;</span><strong>'.$passed.'</strong></div> '; }
                     ?>
                     <div class="form_elements">
                         <label for="Username">Current Password</label>
@@ -82,7 +82,7 @@
                 <table class=table>
                     <?php
                         if (isset($error2)) { echo ' <div class="alert"><span class="closebtn" onclick=this.parentElement.style.display="none";>&times;</span><strong>'.$error2.'</strong></div> '; }
-                        else if (isset($passed1)) { echo ' <div class="success"><span class="closebtn" onclick=this.parentElement.style.display="none";>&times;</span><strong>'.$passed1.'</strong></div> '; }
+                        elseif (isset($passed1)) { echo ' <div class="success"><span class="closebtn" onclick=this.parentElement.style.display="none";>&times;</span><strong>'.$passed1.'</strong></div> '; }
                     ?>
                     <div class="form_elements">
                         <label for="Username">New Email</label>

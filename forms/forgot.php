@@ -28,7 +28,7 @@
                         <h2 style="text-align: center; font-family: fantasy;">Forgot password</h2>
                         <?php
                             if (isset($error)) { echo ' <div class="alert"><span class="closebtn" onclick=this.parentElement.style.display="none";>&times;</span><strong>'.$error.'</strong></div> '; }
-                            else if (isset($success)) { echo ' <div class="success"><span class="closebtn" onclick=this.parentElement.style.display="none";>&times;</span><strong>'.$success.'</strong></div> '; }
+                            elseif (isset($success)) { echo ' <div class="success"><span class="closebtn" onclick=this.parentElement.style.display="none";>&times;</span><strong>'.$success.'</strong></div> '; }
                         ?>
                         <br />
                         <div class="form_elements">
