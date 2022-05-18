@@ -1,6 +1,6 @@
 # CAMAGRU
 
-<img src="./uploads/homeScreen.png" width="100%">
+<img src="https://drive.google.com/file/d/1I6K75f5Dx7A6f_mDAC-b6nxJFqmOtxtW/view?usp=sharing" width="100%">
 
 Camagru is the first web project from the 42 / WeThinkCode_ curriculum, that aims to create a simple image editing and sharing application that allows users to post or upload images with frames or stickers, which other users within the application can comment and / or like.
 
